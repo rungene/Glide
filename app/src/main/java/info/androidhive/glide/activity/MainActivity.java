@@ -28,6 +28,8 @@ import info.androidhive.glide.model.Image;
 
 public class MainActivity extends AppCompatActivity {
 
+    //https://www.androidhive.info/2016/04/android-glide-image-library-building-image-gallery-app/
+
     private String TAG = MainActivity.class.getSimpleName();
     private static final String endpoint = "https://api.androidhive.info/json/glide.json";
     private ArrayList<Image> images;
